@@ -1,0 +1,183 @@
+body {
+  background: #696969;
+  color: #fff;
+  font-family: sans-serif;
+  font: 1.2em calibri;
+  font-size:17px;
+  margin: 10px;
+}
+h2 {
+  text-align: center;
+  color: ghostwhite;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: inline-grid;
+  justify-items: block;
+}
+
+.fa-solid {
+  color: rgb(177, 151, 252);
+}
+
+button {
+  color: white;
+  padding: 10px 10px;
+  margin-left: 15px;
+  background-color: darkblue;
+  border-radius: 5px;
+  transition: background-color 0.5s ease-in;
+}
+button:hover {
+  background: blue;
+  color: black;
+}
+
+button:active {
+  color: red;
+}
+
+nav {
+  display: flex;
+  align-content: wrap;
+  justify-content: left;
+}
+
+.endlessr {
+  border: 3px solid blue;
+  background-color: blueviolet;
+  display: grid;
+  grid-template: repeat(5, 100px) / repeat(7, 100px);
+  border-radius: 7px;
+}
+.epic {
+  grid-area: 4 / 3 / 5 / 6;
+  text-align: center;
+}
+.ed {
+  grid-area: 1 / 3 / 3 / 6;
+
+}
+.table1 {
+  grid-area: 5 / 3 / 6 / 6;
+}
+.buttona {
+  grid-area: 5 / 2 / 5 / 3;
+  padding: 5px;
+  margin: 15px;
+  background-color: darkblue;
+  color: white;
+  border-radius: 5px;
+}
+.buttona:hover {
+  background-color: blue;
+  color: black;
+}
+.buttona:active {
+  color: red;
+}
+
+p {
+  color: navy;
+  font-size: 20px;
+}
+.snake {
+  display: grid;
+  grid-template: repeat(5, 100px) / repeat(7, 100px);
+  border: 3px solid blue; 
+  background-color: blueviolet;
+  margin-top: 8px;
+  border-radius: 8px;
+}
+.snaketable {
+    grid-area: 5 / 3 / 6 / 6;
+}
+.snakeb {
+  grid-area: 5 / 2 / 5 / 3;
+  padding: 5px;
+  margin: 15px;
+  background-color: black;
+  color: white;
+}
+.p2 {
+  grid-area: 4 / 3 / 5 / 6;
+  text-align: center;
+}
+#gameCanvas {
+  grid-area: 1 / 4 / 4 / 5;
+  align-content: center;
+  border: 3px solid orangered;
+  background-color: #696969;
+  margin: auto;
+  border-radius: 5px;
+}
+.snakeh {
+   grid-area: 1 / 3 / 3 / 6;
+}
+h1 {
+  text-align: center;
+  font: 1.2em impact;
+  font-size: 60px;
+  color: ghostwhite;
+  text-shadow: 4px 3px 2px black;
+  letter-spacing: 3px;
+  margin-top: 65px;
+  margin-bottom: 65px;
+}
+
+table {
+  color: ghostwhite;
+  text-align: center;
+  border-collapse: collapse;
+  margin-top: 8px; 
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+th,
+td {
+   border: 3px solid orangered;
+   padding: 5px;
+   margin: 2px 2px 2px 2px;
+   text-align: center;
+}
+
+button.snakeb {
+  color: white;
+  background-color: darkblue;
+  padding: 7px;
+  margin: 15px;
+}
+
+button.snakeb:hover {
+  background-color: blue;
+  color: black;
+}
+
+button.snakeb:active {
+   color: red;
+}
+
+.p3 {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+.snakeBody {
+    background-color: green;
+    border: 1px solid rgb(33, 32, 32);
+}
+
+@media only screen and (min-width: 500px) and (max-width: 950px) {
+  .snake, .endlessr {
+    grid-template-columns: auto;
+    display: center;
+  }
+}
+@media only screen and (min-width: 1000px) and (max-width: 1750px) {
+  .snake, .endlessr {
+    grid-template-columns: auto;
+    display: center;
+  }
+}
